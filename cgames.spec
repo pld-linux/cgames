@@ -63,5 +63,5 @@ rm -rf $RPM_BUILD_ROOT
 %doc *.gz
 %attr(755,root,root) %{_bindir}/*
 %{_datadir}/csokoban
-%{_datadir}/cgames
+%{_datadir}/cblocks
 %{_mandir}/man6/*
