@@ -6,6 +6,7 @@ Release:	1
 License:	GPL
 Group:		Applications/Games
 Source0:	http://www.muppetlabs.com/~breadbox/pub/software/%{name}-%{version}.tar.gz
+# Source0-md5:	6e260e87728bd67975cafbf09d480a01
 URL:		http://www.muppetlabs.com/~breadbox/software/cgames.html
 BuildRequires:	autoconf
 BuildRequires:	automake
