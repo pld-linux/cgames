@@ -14,26 +14,27 @@ BuildRequires:	gpm-devel
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
-The programs in this distribution are re-implementations of games for the
-Linux console. Included please find three games:
+The programs in this distribution are re-implementations of games for
+the Linux console. Included please find three games:
 
 * cblocks -- sliding-block puzzles
 * cmines -- minesweeper
 * csokoban -- sokoban
 
-The games make use of the Linux console font (this means they won't work
-in any xterm!) and mouse support to improve the user interface.
+The games make use of the Linux console font (this means they won't
+work in any xterm!) and mouse support to improve the user interface.
 
 %description -l pl
-Programy w tym pakiecie to reimplementacja gier dla linuksowej konsoli.
-Mo¿na tu znale¼æ trzy gry:
+
+Programy w tym pakiecie to reimplementacja gier dla linuksowej
+konsoli. Mo¿na tu znale¼æ trzy gry:
 
 * cblocks -- ³amig³ówka z przesuwaniem klocków
 * cmines -- saper
 * csokoban -- sokoban
 
-Gry wykorzystuj± fonty konsolowe (to oznacza, ¿e nie bêd± dzia³aæ w ¿adnym
-xtermie!) i myszkê do usprawnienia interfejsu u¿ytkownika.
+Gry wykorzystuj± fonty konsolowe (to oznacza, ¿e nie bêd± dzia³aæ w
+¿adnym xtermie!) i myszkê do usprawnienia interfejsu u¿ytkownika.
 
 %prep
 %setup -q
