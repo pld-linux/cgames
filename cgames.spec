@@ -39,7 +39,7 @@ xtermie!) i myszkê do usprawnienia interfejsu u¿ytkownika.
 
 %build
 aclocal
-autoconf
+%{__autoconf}
 cp -f /usr/share/automake/config.* .
 %configure
 %{__make}
