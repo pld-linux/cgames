@@ -7,6 +7,8 @@ License:	GPL
 Group:		Applications/Games
 Source0:	http://www.muppetlabs.com/~breadbox/pub/software/%{name}-%{version}.tar.gz
 URL:		http://www.muppetlabs.com/~breadbox/software/cgames.html
+BuildRequires:	autoconf
+BuildRequires:	automake
 BuildRequires:	gpm-devel
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
@@ -38,6 +40,7 @@ xtermie!) i myszkê do usprawnienia interfejsu u¿ytkownika.
 %build
 aclocal
 autoconf
+cp -f /usr/share/automake/config.* .
 %configure
 %{__make}
 
