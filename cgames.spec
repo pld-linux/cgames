@@ -1,5 +1,5 @@
 Summary:	Games for the Linux console
-Summary(pl):	Gry na Linuxow± konsolê
+Summary(pl):	Gry na linuksow± konsolê
 Name:		cgames
 Version:	2.2
 Release:	1
@@ -24,7 +24,7 @@ The games make use of the Linux console font (this means they won't work
 in any xterm!) and mouse support to improve the user interface.
 
 %description -l pl
-Programy w tym pakiecie to reimplementacja gier dla Linuksowej konsoli.
+Programy w tym pakiecie to reimplementacja gier dla linuksowej konsoli.
 Mo¿na tu znale¼æ trzy gry:
 
 * cblocks -- ³amig³ówka z przesuwaniem klocków
