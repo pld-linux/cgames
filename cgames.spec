@@ -2,7 +2,7 @@ Summary:	Games for the Linux console
 Summary(pl):	Gry na linuksow± konsolê
 Name:		cgames
 Version:	2.2
-Release:	2
+Release:	3
 License:	GPL
 Group:		Applications/Games
 Source0:	http://www.muppetlabs.com/~breadbox/pub/software/%{name}-%{version}.tar.gz
