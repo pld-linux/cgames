@@ -56,14 +56,12 @@ install */*.6 $RPM_BUILD_ROOT%{_mandir}/man6
 install csokoban/series/* $RPM_BUILD_ROOT%{_datadir}/csokoban
 install cblocks/series/* $RPM_BUILD_ROOT%{_datadir}/cblocks
 
-gzip -9nf Changelog
-
 %clean
 rm -rf $RPM_BUILD_ROOT
 
 %files
 %defattr(644,root,root,755)
-%doc *.gz
+%doc Changelog
 %attr(755,root,root) %{_bindir}/*
 %{_datadir}/csokoban
 %{_datadir}/cblocks
