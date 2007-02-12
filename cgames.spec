@@ -1,5 +1,5 @@
 Summary:	Games for the Linux console
-Summary(pl.UTF-8):   Gry na linuksową konsolę
+Summary(pl.UTF-8):	Gry na linuksową konsolę
 Name:		cgames
 Version:	2.2
 Release:	3
